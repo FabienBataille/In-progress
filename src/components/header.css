@@ -1,0 +1,18 @@
+.Header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header h1{
+ margin-top: 25px;
+ padding-right: 25px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.MenuBurger{
+  padding-top: 5px;
+}

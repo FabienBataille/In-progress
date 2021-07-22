@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './home.css';
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
         relation entre parents, élèves et professeurs afin que l’enseignement
         dispensé porte ses fruits.
       </p>
-      <div className="create/connection">
+      <div className="create-connection">
         <Link to="/inscription" className="create-profile">
           Créer profil
         </Link>

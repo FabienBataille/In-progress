@@ -5,11 +5,13 @@ import Inscription from './components/Inscription';
 import Connection from './components/Connection';
 import Profile from './components/Profile';
 import Discussion from './components/Discussion';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <div>
           <Switch>
             <Route exact path="/">

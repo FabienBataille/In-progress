@@ -1,0 +1,76 @@
+.list,
+.list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.list li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+.list ul li {
+  display: inherit;
+  border-radius: 0;
+  font-size: 20px;
+}
+.list ul li:hover {
+  border-radius: 0;
+}
+.list ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.list ul {
+  position: absolute;
+  z-index: 1000;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: 0.8s all 0.3s;
+  -webkit-transition: 0.8s all 0.3s;
+  transition: 0.8s all 0.3s;
+}
+.list li:hover ul {
+  max-height: 15em;
+}
+/* background des liens menus */
+.list li:first-child {
+  background-color: white;
+  background-image: -webkit-linear-gradient(top, white 0%, #ffffff 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(236, 235, 235) 0%,
+    #ffffff 100%
+  );
+}
+
+/* background des liens sous menus */
+.list li:first-child li {
+  background: white;
+}
+
+/* les a href */
+.list a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 32px;
+  color: #fff;
+  font-family: arial;
+}
+.list ul a {
+  padding: 8px 0;
+}
+.list li:hover li a {
+  color: rgb(148, 146, 146);
+  text-transform: inherit;
+}
+.list li:hover a,
+.list li li:hover a {
+  color: #000;
+}
+
+.logoBurger{
+  width: 80px;
+}
