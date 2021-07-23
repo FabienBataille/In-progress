@@ -1,0 +1,31 @@
+.identifiants{
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.discussion-suppression{
+  display: flex;
+  flex-direction: column; 
+  margin-top: 50px;
+}
+
+button{
+  width: 200px;
+}
+
+.supression{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.discussion{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

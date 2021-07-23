@@ -1,10 +1,18 @@
 import React from 'react';
+import './comment.css';
 
 function Comment() {
   return (
     <div>
       <h4>Nom</h4>
-      <input type="testarea" name="testarea" id="comment" placeholder="texte" />
+      <div className="text">
+        <input
+          type="testarea"
+          name="testarea"
+          className="comment"
+          placeholder="texte"
+        />
+      </div>
     </div>
   );
 }

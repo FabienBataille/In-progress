@@ -1,0 +1,38 @@
+.Inscription{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.emailContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lastnameContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstnameContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.passwordContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+form{
+  margin-top: 50px;
+}
+
+.titre{
+  text-align: center;
+}
+
+.connection{
+  text-align: center;
+  margin-top: 100px;
+}

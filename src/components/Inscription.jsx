@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import './inscription.css';
 
 function Inscription() {
   return (
     <div className="Inscription">
-      <h1 className="titre">Connexion</h1>
+      <h1 className="titre">Inscription</h1>
       <form className="lastnameContainer">
         <label htmlFor="name" className="lastName">
           Nom

@@ -1,0 +1,8 @@
+.connection{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  margin-top: 90px;
+}
