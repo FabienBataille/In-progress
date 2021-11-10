@@ -6,6 +6,7 @@ import Connection from './components/Connection';
 import Profile from './components/Profile';
 import Discussion from './components/Discussion';
 import Header from './components/Header';
+import Admin from './components/Admin/Admin';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route exact path="/home">
               <Home />
+            </Route>
+            <Route exact path="/admin">
+              <Admin />
             </Route>
           </Switch>
         </div>

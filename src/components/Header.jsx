@@ -1,14 +1,25 @@
+import { Container, Grid } from '@mui/material';
 import './header.css';
-import logo from './logo.png';
 import MenuBurger from './MenuBurger';
+import logo from './logo.png';
 
 function Header() {
   return (
-    <div className="Header">
-      <img className="logo" alt="logo" src={logo} />
-      <h1>Le forum</h1>
-      <MenuBurger />
-    </div>
+    <Container className="Header" maxWidth="xl">
+      <nav>
+        <Grid container alignItems="center">
+          <Grid item xs={2}>
+            <img className="logo" alt="logo" src={logo} />
+          </Grid>
+          <Grid item xs={8} textAlign="center">
+            <h1>Le Forum</h1>
+          </Grid>
+          <Grid item xs={2}>
+            <MenuBurger />
+          </Grid>
+        </Grid>
+      </nav>
+    </Container>
   );
 }
 
